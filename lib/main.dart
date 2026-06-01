@@ -24,8 +24,8 @@ class GroupFlutterPagesApp extends StatelessWidget {
 class TeamHomePage extends StatelessWidget {
   const TeamHomePage({super.key});
 
-  static const String projectTitle = '星火小组 Flutter Web 展示页';
-  static const String projectSlogan = '用 GitHub 协作完成一次真实的小组项目发布';
+  static const String projectTitle = '第 1 组校园活动展示平台';
+  static const String projectSlogan = '用 Flutter Web 展示我们的项目创意与协作过程';
 
   static const List<TeamMember> members = [
     TeamMember(role: '组长', name: '李组长', task: '创建仓库、维护 main 分支、审核 PR、发布 GitHub Pages'),
