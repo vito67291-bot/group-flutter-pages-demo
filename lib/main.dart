@@ -43,9 +43,10 @@ class TeamHomePage extends StatelessWidget {
   ];
 
   static const List<String> releaseNotes = [
-    '源码保存在 main 分支。',
-    'Flutter Web 编译产物发布到 gh-pages 分支。',
-    '组长合并 PR 后统一执行部署命令。',
+    '源码统一维护在 main 分支，所有组员修改都通过 PR 合并。',
+    '组长使用 flutter build web 生成静态网页文件。',
+    '构建产物发布到 gh-pages 分支，并由 GitHub Pages 对外访问。',
+    '访问地址：https://vito67291-bot.github.io/group-flutter-pages-demo/',
   ];
 
   @override
