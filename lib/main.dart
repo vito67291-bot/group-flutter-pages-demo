@@ -39,6 +39,7 @@ class TeamHomePage extends StatelessWidget {
     'Flutter Web 单页应用',
     'GitHub Pull Request 协作',
     '组长审核与合并代码',
+    '记录每位组员通过 Pull Request 完成的修改',
     'GitHub Pages 静态站点发布',
   ];
 
